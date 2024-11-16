@@ -24,36 +24,35 @@ This project is a web scraping tool designed to extract product information from
 
 ## Dependencies
 
-python :
+python : """
 
-requirements.txt
-
-requests==2.31.0
-beautifulsoup4==4.12.0
-pandas==2.1.0
-logging==0.5.1.2
-urllib3==2.0.7
-
+requirements.txt :
+    requests==2.31.0
+    beautifulsoup4==4.12.0
+    pandas==2.1.0
+    logging==0.5.1.2
+    urllib3==2.0.7
+"""
 
 ## Project Structure
-
-Product_scraper/
-├── main.py # Main execution script
-├── fetch_product_links.py # Script to fetch product URLs from sitemaps
-├── extract_product_info.py # Script to extract product details
-├── utils/
-│ ├── robots.py # Utilities for robots.txt handling
-│ └── sitemap.py # Utilities for sitemap parsing
-├── config/
-│ └── websites.py # Website configuration
-└── data/ # Directory for storing JSON output files
-
+  
+Product_scraper/    
+├── main.py # Main execution script  
+├── fetch_product_links.py # Script to fetch product URLs from sitemaps  
+├── extract_product_info.py # Script to extract product details  
+├── utils/  
+│ ├── robots.py # Utilities for robots.txt handling  
+│ └── sitemap.py # Utilities for sitemap parsing  
+├── config/  
+│ └── websites.py # Website configuration  
+└── data/ # Directory for storing JSON output files  
+  
 
 
 ## Installation
 1. Clone the repository:
    bash: """
-    git clone <repository-url>
+    git clone (repository-url)
    """
 
 2. Install required dependencies:
