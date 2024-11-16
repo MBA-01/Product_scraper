@@ -49,17 +49,17 @@ Product_scraper/
   
 
 
-## Installation
-1. Clone the repository:
-   bash: """
-    git clone (repository-url)
-   """
-
-2. Install required dependencies:
-   bash: """
-    pip install -r requirements.txt
-   """
-
+## Installation  
+1. Clone the repository:  
+   bash: """  
+    git clone (repository-url)  
+   """  
+  
+2. Install required dependencies:  
+   bash: """  
+    pip install -r requirements.txt  
+   """  
+  
 ## Usage
 Run the scraper by executing the main script with a target website URL:
 
